@@ -27,4 +27,4 @@ def students_by_ids(ids):
             'age': row[2],
             'grade': row[3]
         })
-    return students
+    return students_by_ids
