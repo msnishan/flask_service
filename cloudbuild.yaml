@@ -6,7 +6,7 @@ steps:
       [
         'build',
         '-t',
-        'us-central1-docker.pkg.dev/student-00332/my-repo/flask_service:latest',
+        'us-central1-docker.pkg.dev/student-00332/flask-project/flask_service:latest',
         '.'
       ]
 
@@ -14,8 +14,8 @@ steps:
     args:
       [
         'push',
-        'us-central1-docker.pkg.dev/student-00332/my-repo/flask_service:latest'
+        'us-central1-docker.pkg.dev/student-00332/flask-project/flask_service:latest'
       ]
 
 images:
-  - 'us-central1-docker.pkg.dev/student-00332/my-repo/flask_service:latest'
+  - 'us-central1-docker.pkg.dev/student-00332/flask-project/flask_service:latest'
